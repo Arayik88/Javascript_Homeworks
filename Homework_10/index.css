@@ -1,0 +1,24 @@
+body {
+    margin: 0;
+    background-color: black;
+}
+
+#root {
+    padding: 3rem;
+    position: relative;
+}
+
+#root h1 {
+    font-family: 'Press Start 2P', Consolas, monospace;
+    color: white;
+    position: absolute;
+    left: 38.5vw;
+    top: 0;
+    padding-top: 0;
+    margin-top: 1%;
+}
+
+#root canvas {
+    display: block;
+    margin: 0 auto;
+}

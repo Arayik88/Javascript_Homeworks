@@ -1,0 +1,22 @@
+function myFunc(a, b, c) {
+
+    if(a == 0){
+        return "Enter valid constants";
+    }
+
+    var D = b * b - 4 * a * c;
+
+    if(D < 0){
+        return "Solution does not exists";
+    }
+    else if(D == 0)
+        return "Solution is " + -b / 2 * a;
+
+    return "Solutions are " + (((-1 * b) + Math.sqrt(D)) / (2 * a)) + " and " + (((-1 * b) - Math.sqrt(D)) / (2 * a));
+}
+
+// myFunc(1,2, 1);
+// myFunc(0, 4, -5);
+// myFunc(3, -8, 12);
+// myFunc(5, -13, 6);
+

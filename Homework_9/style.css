@@ -1,0 +1,227 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    transition: 1s;
+}
+
+html, body, .container{
+    width: 100%;
+    height: auto;
+}
+
+header{
+    height: 7vh;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+nav{
+    display: flex;
+    position: fixed;
+    background: #fff;
+    width: 100%;
+    height: 7vh;
+    justify-content: start;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+    color: #aaa;
+    padding: 6px;
+    border-radius: 5px;
+}
+
+.box{
+    display:block;
+}
+#home{
+    padding-top: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 93vh;
+    background-image: url('./images/796851.png');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}
+.top {
+    width: 100%;
+    height: 71%;
+}
+#home h2 {
+    padding-top: 60px;
+    font-style: italic;
+}
+#home h3 {
+    font-style: italic;
+    color: #aaa;
+}
+#home a{
+    font-size: 1.5vw;
+}
+#home h5 a:hover{
+    cursor: pointer;
+}
+
+#works, #about, #contact, #qualification {
+    width: auto;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#qualification{
+    flex-direction: column;
+    background: #eee;
+}
+
+.hr {
+    width: 10vw;
+    height: 4px;
+    background-color: #000;
+}
+
+#qualification div h5{
+    padding-top: 5vh;
+}
+
+.perfectCentered {
+    width: 80%;
+    height: 60%;
+}
+.boxcontainer {
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+h2 {
+    color: #aaa;
+    font-size: 4vw;
+}
+section a {
+    font-size: 2vw;
+}
+.box {
+    background-size: cover;
+    height: 100px;
+    width: 100px;
+    margin: 0 2.5%;
+}
+.box1 {
+    background-image: url("./images/120px-Java_logo_500x500.jpg");
+}
+
+.box1:hover, .box2:hover, .box3:hover, .box4:hover{
+    cursor: pointer;
+    border: 1px solid #aaa;
+    transform: scale(1.5);
+}
+.box2 {
+    background-image: url("./images/spring_500x500.png");
+}
+.box3 {
+    background-image: url("./images/javascript_500x500.jpg");
+}
+.box4 {
+    background-image: url("./images/react500_500.png");
+}
+#perfectCentered {
+    width: 80%;
+    height: 60%;
+}
+
+nav a{
+    color: black;
+}
+
+ a:hover{
+    background: #736c6c1f;
+}
+
+ #works{
+     background: rgba(100, 153, 186, 0.11);
+ }
+
+ #caousel{
+     background-image: url("./images/Carousel.png");
+ }
+
+ #todolist{
+     background-image: url("./images/Todo List.png");
+ }
+
+ #aboutme{
+     display: flex;
+     border: none;
+     width: 80vw;
+     background-image: none;
+     float: left;
+     padding-left: 0;
+ }
+
+ #about{
+     background-color: honeydew;
+ }
+ #contact{
+     background-color: white;
+ }
+ #contact h2{
+     color: black;
+ }
+ #mycontacts{
+     display: flex;
+     border: none;
+     width: 70vw;
+     background-image: none;
+     float: left;
+     padding-left: 0;
+ }
+
+ #contact-hr{
+    width: 10vw;
+    height: 4px;
+    background-color: #000000;
+     display: block;
+}
+
+ #mycontacts:hover{
+    cursor: default;
+ }
+
+#phone, #mail{
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5vw;
+    margin-right: 15vw;
+    padding-top: 20vh;
+    width: 20vw;
+    overflow-x: fragments;
+}
+
+img{
+   padding-left: 50%;
+}
+
+#phone img{
+    padding-left: 30%;
+}
+
+#top_about{
+   height: 20vh;
+}
+
+#myname{
+    color: #727272;
+    font-size: 2vw;
+    padding-left: 5.5vw;
+}
+
+#pre{
+    display: inline-block;
+    padding-top: 10vh;
+}

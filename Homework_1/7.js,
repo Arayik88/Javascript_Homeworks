@@ -1,0 +1,22 @@
+function myFunc(num1, num2, num3) {
+
+    var x = [num1, num2, num3];
+
+
+    var countOfMinus = 0;
+
+    for(var i = 0; i < x.length; ++i){
+        if(x[i] == 0){
+            return "unsigned";
+        }
+        if(x[i] < 0){
+            ++countOfMinus;
+        }
+    }
+
+    return (countOfMinus % 2 == 0) ? "+" : "-";
+}
+
+// myFunc(-14, 5, 0);
+// myFunc(-8, 9, -6);
+// myFunc(4, 19, -2);

@@ -1,0 +1,21 @@
+function myFunc(num) {
+    
+    var stringNum = num + "";
+    if(stringNum.length == 1){
+        alert(num);
+        return;
+    }
+    var start = stringNum.slice(0, 1);
+    console.log(start);
+    console.log("\n");
+    var mid = stringNum.slice(1, stringNum.length-1);
+    console.log(mid);
+    console.log("\n");
+    var end = stringNum.slice(stringNum.length-1, stringNum.length);
+    console.log(end);
+
+    var resultString = end + "" + mid + "" + start;
+    var resultNumber = Number(resultString);
+    alert(resultNumber);
+}
+myFunc(2);

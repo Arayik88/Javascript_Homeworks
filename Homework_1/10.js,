@@ -1,0 +1,16 @@
+function myFunc(digit, num) {
+    do{
+        if(num % 10 == digit){
+            return "Yes";
+        }
+
+        num = Math.floor(num / 10);
+    }
+    while (num > 9)
+
+    return "No";
+}
+
+// myFunc(5, 2463);
+// myFunc(4, 6);
+// myFunc(8, 45689);

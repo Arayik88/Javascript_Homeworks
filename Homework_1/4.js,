@@ -1,0 +1,24 @@
+function myFunc(num) {
+    
+    var stringNum = num + "";
+    if(stringNum.length == 1){
+        alert(num);
+        return;
+    }
+    var start = stringNum.slice(0, 1);
+    console.log(start);
+    console.log("\n");
+    var mid = stringNum.slice(1, stringNum.length-1);
+    console.log(mid);
+    console.log("\n");
+    var end = stringNum.slice(stringNum.length-1, stringNum.length);
+    console.log(end);
+
+    var resultString = end + "" + start + "" + mid;
+    var resultNumber = Number(resultString);
+    alert(resultNumber);
+}
+// myFunc(367);
+// myFunc(1002);
+// myFunc(250);
+// myFunc(8);

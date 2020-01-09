@@ -1,0 +1,13 @@
+
+function myFunc(n){
+
+    var nnn = n + "" + n + "" + n;
+    var nn = n + "" + n;
+
+    var result = Number(nnn) + Number(nn) + n;
+
+    console.log(result);
+}
+// myFunc(3);
+// myFunc(17);
+// myFunc(100);

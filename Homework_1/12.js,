@@ -1,0 +1,23 @@
+function myFunc(message, a, b) {
+    if(message.localeCompare("rectangle") == 0 || message.localeCompare("triangle") == 0){
+        if(a <= 0 || b <= 0){
+            return "Please enter positive numbers";
+        }
+        var shape = "rectangle";
+        var  S = a * b;
+
+        if(message === "triangle"){
+            S /= 2;
+
+            shape = "triangle";
+        }
+    }
+
+    else{
+        return "Wrong shape type";
+    }
+
+    return "The area of " + shape + " is " + S;
+}
+
+//myFunc("rectangle", 5, 6);

@@ -1,0 +1,7 @@
+function myFunc(n){
+    
+    console.log((n % 2 == 0)? "even" : "odd");
+}
+
+// myFunc(7);
+// myFunc(8);
