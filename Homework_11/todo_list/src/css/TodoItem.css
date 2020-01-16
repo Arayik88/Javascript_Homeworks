@@ -1,0 +1,19 @@
+.todoItem{
+    background-color: mediumaquamarine;
+    height: 5vh;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+}
+
+.checkBox{
+    width: 2vw;
+    height: 2vh;
+    left: 0;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+#spanText {
+    background: none;
+    left: 5%;
+}

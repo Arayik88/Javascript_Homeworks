@@ -1,0 +1,11 @@
+.Container{
+    background-color: darkcyan;
+    position: absolute;
+    width: 50%;
+    min-height: 70%;
+    border: 1px solid black;
+    left: 25%;
+    top: 10%;
+    right: 30%;
+    height: auto;
+}

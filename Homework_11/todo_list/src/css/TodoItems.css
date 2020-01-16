@@ -1,0 +1,28 @@
+#list{
+    position: absolute;
+    top: 20%;
+    top: 19%;
+    width: 95%;
+    left: 0;
+}
+
+ul{
+    position: absolute;
+    list-style: none;
+    border: lightblue;
+    left: 0;
+    margin: 0;
+    padding: 2.1%;
+    padding-top: 0;
+    width: 98.2%;
+    overflow: auto;
+    height: 55vh;
+}
+
+ul li:nth-child(odd) {
+    background: aquamarine;
+}
+
+ul li {
+    position: relative;
+}

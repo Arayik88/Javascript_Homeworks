@@ -1,0 +1,23 @@
+.header{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+input{
+    position: absolute;
+    left: 2%;
+    width: 85%;
+    height: 30%;
+}
+
+span{
+    position: absolute;
+    left: 87%;
+    background-color: #eeeeee;
+    height: 30%;
+}
+
+span:hover{
+    cursor: pointer;
+    background-color: #a7a7a7;
+}
