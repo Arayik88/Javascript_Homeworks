@@ -17,3 +17,12 @@
     background: none;
     left: 5%;
 }
+#spanDelete{
+    background: none;
+    left: 97%;
+    color: grey;
+}
+
+#spanDelete:hover{
+    background: silver;
+}
